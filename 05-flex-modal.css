@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+  }
+  
+body{
+    font-family: Roboto, sans-serif;
+    background: #aaa;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.modal{
+    background: white;
+    border-radius: 10px;
+    width: 480px;
+    box-shadow: 2px 4px 16px;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+.icon{
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    background: lavender;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.close-button{
+    background: #eee;
+    border-radius: 50%;
+    font-weight: 400;
+    color: #888;
+    height: 24px;
+    width: 24px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.continue{
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+.cancel{
+    background-color: white;
+    color:royalblue;
+    border: 1px solid #ddd;
+}
+.text{
+    margin-bottom: 16px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
